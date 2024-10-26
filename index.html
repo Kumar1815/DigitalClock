@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer async></script>
+
+</head>
+
+<body>
+    <div id="darkmodeBackground">
+    </div>
+    <h1 id="sec"></h1>
+    <div id="hrClock">
+        <div id="hrneedle"></div>
+    </div>
+    <div id="minClock">
+        <div id="minneedle"></div>
+    </div>
+    <div id="secClock">
+        <div id="secneedle"></div>
+    </div>
+    <div id="calender">
+        <div id="amPmToggle" onclick="toggle24()">
+            <div id="toggleButton" ></div>
+            <h3>12</h3>
+            <h3>24</h3>
+        </div>
+        <div>
+            <h1 id="time"></h1>
+        </div>
+        <div>
+            <h1 id="cal"></h1>
+        </div>
+    </div>
+</body>
+
+</html>
